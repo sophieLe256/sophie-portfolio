@@ -53,6 +53,10 @@
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
 }
+.qualification__title a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
 
 .qualification__subtitle {
   display: inline-block;
@@ -101,10 +105,23 @@
   z-index: 1; /* Ensure the dot is on top of the line */
   position: relative;
 }
-
+.qualification__calender-icon{
+  color: red;
+}
 .qualification_icon {
   padding-right: 2px;
   font-size: 25px;
+}
+.qualification__links{
+  margin-top: -20px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+.qualification__links a {
+  color: black;
+}
+.qualification__icon-link{
+  color: black;
 }
 
 /*=============== BREAKPOINTS ===============*/

@@ -4,11 +4,10 @@ const Info = () => {
   return (
     <div className="about__info grid">
       <div className="about__box">
-        <i className="bx bx-award about__icon"></i>
-        <h3 className="about__title">Experience</h3>
-        <span className="about__subtitle">2 Years Working</span>
+        <i className="bx bx-book about__icon"></i>
+        <h3 className="about__title">Education</h3>
+        <span className="about__subtitle">Georgia State University</span>
       </div>
-
       <div className="about__box">
         <i className="bx bx-briefcase-alt about__icon"></i>
         <h3 className="about__title">Completed</h3>
@@ -16,9 +15,9 @@ const Info = () => {
       </div>
 
       <div className="about__box">
-        <i className="bx bx-support about__icon"></i>
-        <h3 className="about__title">Support</h3>
-        <span className="about__subtitle">Online 24/7</span>
+        <i className="bx bx-time-five about__icon"></i>
+        <h3 className="about__title">Available</h3>
+        <span className="about__subtitle">Open to Opportunities</span>
       </div>
     </div>
   );

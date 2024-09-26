@@ -51,13 +51,13 @@ const Qualification = () => {
                 <span className="qualification__subtitle">
                   Computer Science
                   <br></br>
-                  GPA:
+                  GPA: 3.38
                   <br></br>
-                  Award:
+                  Award: Dean's List for 1 semesters
                 </span>
-                
+
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i className="uil uil-calendar-alt qualification__calender-icon"></i> 2021 - 2022
                 </div>
               </div>
               <div>
@@ -66,17 +66,28 @@ const Qualification = () => {
               </div>
             </div>
             <div className="qualification__data">
-            <div></div>
+              <div></div>
               <div>
                 <span className="qualification__rounder-2"></span>
                 <span className="qualification__line"></span>
               </div>
 
               <div>
-                <h3 className="qualification__title">Tictactoe game</h3>
-                <span className="qualification__subtitle">HTML, CSS, Javascript</span>
+                <h3 className="qualification__title">
+                  <a
+                    href="https://github.com/sophieLe256/Tictactoe_game"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="qualification__link"
+                  >
+                    Tictactoe game
+                  </a>
+                </h3>
+                <span className="qualification__subtitle">
+                  HTML, CSS, Javascript
+                </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>January 2022
+                  <i className="uil uil-calendar-alt qualification__calender-icon"></i>January 2022
                 </div>
               </div>
             </div>
@@ -165,12 +176,13 @@ const Qualification = () => {
                 <span className="qualification__subtitle">
                   Computer Science
                   <br></br>
-                  GPA:
+                  GPA: 3.58
                   <br></br>
-                  Award:
+                  Award: President's List for 2 semesters, Dean's List for 1
+                  semesters
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt qualification__calender-icon"></i> Spring 2022 - December 2024
                 </div>
               </div>
               <div>
@@ -179,17 +191,26 @@ const Qualification = () => {
               </div>
             </div>
             <div className="qualification__data">
-            <div></div>
+              <div></div>
               <div>
                 <span className="qualification__rounder-2"></span>
                 <span className="qualification__line"></span>
               </div>
 
               <div>
-                <h3 className="qualification__title">My Portfolio</h3>
+                <h3 className="qualification__title">
+                  <a
+                    href="https://github.com/sophieLe256/sophie-portfolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="qualification__link"
+                  >
+                    My Portfolio
+                  </a>
+                </h3>
                 <span className="qualification__subtitle">React</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>January 2024 - Present
+                  <i className="uil uil-calendar-alt qualification__calender-icon"></i>January 2024 - Present
                 </div>
               </div>
               <div></div>
@@ -199,12 +220,21 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Bad Rabbits Shopping Website</h3>
+                <h3 className="qualification__title">
+                  <a
+                    href="https://github.com/sophieLe256/sophie-portfolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="qualification__link"
+                  >
+                    Bad Rabbits Shopping Website
+                  </a>
+                </h3>
                 <span className="qualification__subtitle">
                   React, NodeJS, mySQL
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>August 2023 - November
+                  <i className="uil uil-calendar-alt qualification__calender-icon"></i>August 2023 - November
                   2023
                 </div>
               </div>
@@ -217,12 +247,19 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  Shopping SoleFusion Hub Flutter App
+                  <a
+                    href="https://github.com/sophieLe256/mobile_final_app_project"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="qualification__link"
+                  >
+                    Shopping SoleFusion Hub Flutter App
+                  </a>
                 </h3>
                 <span className="qualification__subtitle">Flutter, Dart</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>August 2023 –
-                  December 2023
+                  <i className="uil uil-calendar-alt qualification__calender-icon"></i>August 2023 – December
+                  2023
                 </div>
               </div>
 
@@ -232,22 +269,25 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
 
-              
-
               <div>
                 <h3 className="qualification__title">
-                  TrackTrek - Courier Tracking Website
+                  <a
+                    href="https://github.com/sophieLe256/CSC-SWE-Group3"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="qualification__link"
+                  >
+                    TrackTrek - Courier Tracking Website
+                  </a>
                 </h3>
                 <span className="qualification__subtitle">
                   Python, Django, mySQL, Google GPS
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i>January 2024 –
-                  April 2024
+                  <i className="uil uil-calendar-alt qualification__calender-icon"></i>January 2024 – April
+                  2024
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>

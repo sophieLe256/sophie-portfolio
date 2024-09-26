@@ -5,6 +5,7 @@ import emailjs from "@emailjs/browser";
 const Contact = () => {
   const form = useRef();
   const [messageSent, setMessageSent] = useState(false); // State for notification
+  const [formError, setFormError] = useState(''); // State for form errors
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -50,10 +51,10 @@ const Contact = () => {
           <div className="contact__info">
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
-              <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">user@gmail.com</span>
+              <h3 className="contact__card-title">Mail</h3>
+              <span className="contact__card-data">sophie.le304@outlook.com</span>
 
-              <a href="" className="contact__button">
+              <a href="https://mail.google.com/" className="contact__button">
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -73,9 +74,9 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bxl-messenger contact__card-icon"></i>
               <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">user.fb123</span>
+              <span className="contact__card-data">Bao Nhi Le</span>
 
-              <a href="" className="contact__button">
+              <a href="https://www.facebook.com/le.nina.1840?mibextid=LQQJ4d" className="contact__button">
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
