@@ -222,7 +222,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">
                   <a
-                    href="https://github.com/sophieLe256/sophie-portfolio"
+                    href="https://github.com/sophieLe256/Web-project"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="qualification__link"

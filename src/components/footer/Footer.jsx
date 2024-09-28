@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Sophie Le</h1>
+        <h1 className="footer__title">Bao Nhi (Sophie) Le</h1>
 
         <div className="footer__list">
           <li>
@@ -15,13 +15,13 @@ function Footer() {
             </a>
           </li>
           <li>
-            <a href="#portfolio" className="footer__link">
-              Project
+            <a href="#home" className="footer__link">
+              Home
             </a>
           </li>
           <li>
-            <a href="#testimonials" className="footer__link">
-              Testimonials
+            <a href="#contact" className="footer__link">
+              Contact
             </a>
           </li>
         </div>
@@ -42,17 +42,17 @@ function Footer() {
             <i className="bx bxl-instagram"></i>
           </a>
           <a
-            href="https://twitter.com/"
+            href="https://www.linkedin.com/in/sophie-le-1a2614201/"
             className="footer__social-link"
             target="_blank"
           >
-            <i className="bx bxl-twitter"></i>
+            <i className="bx bxl-linkedin"></i>
           </a>
         </div>
       </div>
-      <span className="footer__copy">
-        &#169; Crypticalcoder. All rights reserved
-      </span>
+      {/* <span className="footer__copy">
+        &#169; All rights reserved
+      </span> */}
     </footer>
   );
 }

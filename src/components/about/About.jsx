@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.png";
-import CV from "../../assets/resume-v10-fe.pdf";
+import CV from "../../assets/resume.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontedn developer, I create web pages with UI / UX user interface,
+            Frontend developer, I create web pages with UI / UX user interface,
             I have years of experience and many skills which is very useful to
             build entire friendly user-interface.
           </p>
