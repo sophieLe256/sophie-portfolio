@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Frontend Developer</h3>
       <p className="home__description">
-        I'm creative designer based in New York, and I'm very passionate and
+        I'm creative designer based in Atlanta, and I'm very passionate and
         dedicated to my work.
       </p>
 
