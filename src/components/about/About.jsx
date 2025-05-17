@@ -22,7 +22,7 @@ const About = () => {
             build entire friendly user-interface.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          <a download="" href="/BaoNhi_resume.pdf" className="button button--flex">
             Download CV
             <svg
                 class="button__icon"
