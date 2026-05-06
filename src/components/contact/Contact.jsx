@@ -133,8 +133,8 @@ const Contact = () => {
 
             <button className="button button--flex">
               Send Message
-                <svg
-                  className="button__icon"
+              <svg
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
