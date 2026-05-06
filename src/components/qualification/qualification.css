@@ -318,8 +318,4 @@
     opacity: 1;
   }
 
-  .qualification__entry:hover .qualification__card,
-  .qualification__entry:focus-within .qualification__card {
-    transform: none;
-  }
 }
