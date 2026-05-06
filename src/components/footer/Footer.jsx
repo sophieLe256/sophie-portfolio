@@ -31,6 +31,7 @@ function Footer() {
             href="https://www.faceebook.com/"
             className="footer__social-link"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="bx bxl-facebook"></i>
           </a>
@@ -38,6 +39,7 @@ function Footer() {
             href="https://instagram.com"
             className="footer__social-link"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="bx bxl-instagram"></i>
           </a>
@@ -45,6 +47,7 @@ function Footer() {
             href="https://www.linkedin.com/in/sophie-le-1a2614201/"
             className="footer__social-link"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="bx bxl-linkedin"></i>
           </a>

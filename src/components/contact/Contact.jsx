@@ -5,7 +5,7 @@ import emailjs from "@emailjs/browser";
 const Contact = () => {
   const form = useRef();
   const [messageSent, setMessageSent] = useState(false); // State for notification
-  const [formError, setFormError] = useState(''); // State for form errors
+  const [formError, setFormError] = useState(""); // State for form errors
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -65,8 +65,8 @@ const Contact = () => {
               <h3 className="contact__card-title">Phone Number</h3>
               <span className="contact__card-data">404-909-7284</span>
 
-              <a href="" className="contact__button">
-                Write me{" "}
+              <a href="tel:+14049097284" className="contact__button">
+                Call me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -133,8 +133,8 @@ const Contact = () => {
 
             <button className="button button--flex">
               Send Message
-              <svg
-                class="button__icon"
+                <svg
+                  className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -153,6 +153,11 @@ const Contact = () => {
             </button>
           </form>
           {/* Notification */}
+          {formError && (
+            <div className="notification">
+              <p>{formError}</p>
+            </div>
+          )}
           {messageSent && (
             <div className="notification">
               <p>Message sent successfully!</p>
